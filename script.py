@@ -11,4 +11,5 @@ for image in images:
     cv2.imshow('images/',rs)
     cv2.waitKey(2000)
     cv2.destroyAllWindows()
+    cv2.imwrite('resized'+image,rs)
     
